@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstIcon">
+    <activity
+        android:id="@+id/firstIcon"
+        android:name="com.example.bookreview.FirstIcon"
+        android:label="activity_first_icon"
+        tools:layout="@layout/activity_first_icon" />
+    <fragment
+        android:id="@+id/secondIcon"
+        android:name="com.example.bookreview.SecondIcon"
+        android:label="fragment_second_icon"
+        tools:layout="@layout/fragment_second_icon" />
+    <fragment
+        android:id="@+id/thirdIcon"
+        android:name="com.example.bookreview.ThirdIcon"
+        android:label="fragment_third_icon"
+        tools:layout="@layout/fragment_third_icon" />
+</navigation>
